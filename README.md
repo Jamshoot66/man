@@ -895,6 +895,12 @@ trust 28:C6:3F:96:CE:12
 pair 28:C6:3F:96:CE:12
 ```
 
+ - Рестарт сервиса 
+
+```bash
+  sudo service bluetooth restart
+```
+  
 #### License
 
 MIT License
