@@ -900,6 +900,14 @@ pair 28:C6:3F:96:CE:12
 ```bash
   sudo service bluetooth restart
 ```
+
+### GIT
+
+ - Удалить все ветки смерженные c текущей локально
+ 
+```bash
+git branch --merged | grep -v \* | xargs git branch -D 
+```
   
 #### License
 
